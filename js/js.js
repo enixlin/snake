@@ -13,8 +13,9 @@ function initail() {
 	ground.style.background = "white";
 	ground.style.border = "1px solid red";
 	
-	var position={x:100,y:300};
-	var nn=new node(position);
+	var position=new Position(100,300);
+	var size=new Size(10,10);
+	var nn=new Node(position,size);
 	console.log(nn);
 
 }
@@ -22,19 +23,24 @@ function initail() {
 var m = 200;
 var n = 200;
 
-var node = {
-	constructor : function(position) {
-		node.x = position.x;
-		node.y = position.y;
-		node.width = 10;
-		node.height = 10;
-	},
-	x : 10,
-	y : 10,
-	width : 100,
-	height : 100,
-	color : "red"
+function Size(width,height){
+	this.width=width;
+	this.height=height;
 }
+
+
+function Position(x,y){
+	this.x=x;
+	this.y=y;
+}
+
+function Node(position,size){
+	this.x=position.x;
+	this.y=position.y;
+	this.width=size.width;
+	this.height=size.height;
+}
+
 
 // 重置游戏场的大小
 function setGroundSize(width, height) {
