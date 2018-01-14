@@ -1,38 +1,31 @@
 <html>
-
-<script type="text/javascript" src="js/js.js"></script>
 <head>
+<script src="./js/snake.js"></script>
 <style>
-.head {
-	background: red;
-	width: 10px;
-	height: 10px;
-	position: absolute;
-	top: 100px;
-	left: 100px
+#controllBar {
+	width: 1002px;
+	height:52px;
+	background: gray;
+	margin: 10px auto 10px auto;
+	center:true
 }
 
-
-.ground{
-
-	background: gray;
-	width: 400px;
-	height: 400px;
-	position: absolute;
-	top: 100px;
-	left: 100px
-
+#playGround {
+	width: 1002px;
+	height: 502px;
+	border: 1px gray solid;
+	margin: 10px auto 10px auto
 }
 </style>
 
+<title>贪吃蛇单机版</title>
 </head>
-<body onkeydown="doKey(event);">
+<body>
+	<div id="controllBar">
+		<input type="button" id="btn_start" value="开始游戏">
+	</div>
+	<div id="playGround"></div>
 
-<input type="button" value="set Size" onclick="initail();" />
-<div id="ground" class="ground">
-	<div class="head" id="head"></div>
-
-</div>
 </body>
 
 </html>
