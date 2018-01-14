@@ -1,4 +1,3 @@
-
 var LZH = {
 	game : {
 		sanke : {
@@ -7,12 +6,15 @@ var LZH = {
 			}
 		},
 		food : {},
-		start:function(){},
-		pash:function(){},
-		run:function(){
+		start : function() {
+		},
+		pash : function() {
+		},
+		run : function() {
 			initailGame();
+			
 		}
-		
+
 	}
 
 }
