@@ -1,20 +1,23 @@
-var LZH = {
-	game : {
-		sanke : {
-			body : {
 
-			}
-		},
-		food : {},
-		start : function() {
-		},
-		pash : function() {
-		},
-		run : function() {
-			initailGame();
-			
-		}
 
-	}
 
+
+/**
+ * 
+ * @returns
+ */
+function snake(){
+	
+}
+
+/**
+ * 
+ * 
+ */
+var f=new snake();
+
+
+
+function node(){
+	
 }

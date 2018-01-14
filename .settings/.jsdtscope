@@ -12,5 +12,6 @@
 			<attribute name="hide" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.FireFoxBrowserLibrary"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
