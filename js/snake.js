@@ -1,23 +1,12 @@
-
-
-
+/**
+ * 
+ *这是一个学习编写贪吃蛇游戏
+ */
 
 /**
  * 
- * @returns
  */
-function snake(){
-	
-}
-
-/**
- * 
- * 
- */
-var f=new snake();
+var game=function(){};
 
 
-
-function node(){
-	
-}
+game.scro
