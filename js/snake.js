@@ -1,12 +1,16 @@
-/**
- * 
- *这是一个学习编写贪吃蛇游戏
- */
-
-/**
- * 
- */
-var game=function(){};
 
 
-game.scro
+var snake;
+var food;
+var map;
+
+
+
+snake=function(){
+    this.direction="";
+    this.body=[];
+
+    snake.show(){
+        
+    }
+}
